@@ -21,3 +21,8 @@
 # b = "K"
 # print(phrase.replace("a", "b"))
 
+# find() method. In the example it is seaching in 'alphabet' varibale for the 4 object located in 'text' variable.
+# text = 'Hello World'
+# alphabet = 'abcdefghijklmnopqrstuvwxyz'
+# position = alphabet.find(text[4])
+# print(position)
