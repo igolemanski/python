@@ -1,5 +1,8 @@
 # FUNCTIONS
 
+# "from" is to import custom functions. It is used like the example below:
+ 
+
 # To get the number of characters in a string we use the len() function.
 # name = input()
 # print(len(name))
@@ -28,3 +31,7 @@
 
 # Function "round" will round the numbers. Meaning will show us the higher number depending which is closer to the lower or higher number
 # print(round(7.6))
+
+
+# from functions import func_name(func_name is the name of the custom function)
+
