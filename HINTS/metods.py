@@ -26,3 +26,8 @@
 # alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # position = alphabet.find(text[4])
 # print(position)
+
+
+# List index() Method
+# fruits = ['apple', 'banana', 'cherry']
+# x = fruits.index("cherry")
