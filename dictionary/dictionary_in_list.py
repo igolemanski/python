@@ -1,6 +1,6 @@
 country = input("Input a country you have visited: ") # Add country name
 visits = int(input("How many times you have visited?: ")) # Number of visits
-list_of_cities = eval(input("Enter cities you have been: ")) # create list from 
+list_of_cities = input("Enter cities you have been: ") # create list from 
 
 travel_log = [
     {
@@ -16,7 +16,6 @@ travel_log = [
 ]
 
 # TODO: Write the function that will allow you new countries to be added to travel_log
-list_of_cities = []
 def add_new_country(name, times_visited, cities_visited):
     new_country = {}
     new_country["country"] = name
