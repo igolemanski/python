@@ -42,32 +42,30 @@
 
 # 9. Create a nested dictionary representing information about multiple people, each with their own name, age, and occupation.
 dictionary = {
+    "person3": {"name": "Gosho", "age": 42, "occupation": "Plovdiv"},
     "person1": {"name": "Ivo", "age": 38, "occupation": "Plovdiv"},
     "person2": {"name": "Niki", "age": 30, "occupation": "Plovdiv"},
+
 }
-print(dictionary)
 
 # 10. Create a new dictionary using dictionary comprehension that includes only people who are above a certain age. Here we are involved with task 9
-age_threshold = 33
-dictionary_age_restriction = {}
-for new_dic in dictionary:
+age_restriction = 35
+filtering_dictionary = {}
+for key, value in dictionary.items():
+    if value["age"] > age_restriction:
+        filtering_dictionary[key] = value
     
 
-    
+# 11. Sort the dictionary from Task 9 based on the age of each person.
+sorted(filtering_dictionary.items())
 
-# Sorting Dictionary:
-# Sort the dictionary from Task 9 based on the age of each person.
+# 12. Merge two dictionaries into a new dictionary.
+merged_dictionaries = {**dictionary, **filtering_dictionary}
 
-# Merging Dictionaries:
-# Merge two dictionaries into a new dictionary.
+# 13. Modify the nested dictionary from Task 9 to store multiple cities for each person.
 
-# Values as Lists:
-# Modify the nested dictionary from Task 9 to store multiple cities for each person.
+# 14. Dictionary Methods: explore and use dictionary methods such as keys(), values(), and items().
 
-# Dictionary Methods:
-# Explore and use dictionary methods such as keys(), values(), and items().
-
-# Check if Value Exists:
-# Check if a specific value (e.g., "Engineer") exists in the dictionary.
+# 15. Check if a specific value (e.g., "Engineer") exists in the dictionary.
 
 

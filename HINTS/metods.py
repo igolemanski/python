@@ -31,3 +31,14 @@
 # List index() Method
 # fruits = ['apple', 'banana', 'cherry']
 # x = fruits.index("cherry")
+
+
+# items() Method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.items()
+car["year"] = 2018
+print(x)

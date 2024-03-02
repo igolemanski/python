@@ -35,3 +35,8 @@
 
 # from functions import func_name(func_name is the name of the custom function)
 
+
+# sorted() function is to sort dictionary in order of values for example
+
+
+# clear() to clear the latest output

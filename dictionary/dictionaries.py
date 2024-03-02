@@ -63,3 +63,13 @@ travel_log = [
   "total_visits": 5,
 },
 ]
+
+
+# Merge dictionaries
+dic1 = {"none": 3}
+dic2 = {"solt": 2}
+merge_dic = {**dic1, **dic2} # This is the way to merge both dictionaries
+print(merge_dic)
+
+
+
