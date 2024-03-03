@@ -1,5 +1,4 @@
 Blind Auction
-Click "Open Preview" above to see this file rendered with the markdown.
 
 Instructions
 The objective is to write a program that will collect the names and bids of different people. The program should ask for each bidder's name and their bid individually.
