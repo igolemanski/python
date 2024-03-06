@@ -4,6 +4,7 @@ print("Welcome to the secret auction program.")
 
 bids = {}
 bidding_finished = False
+
 def find_highest_bidder(bidding_record):
     highest_bid = 0
     winner = ""
