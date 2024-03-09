@@ -9,3 +9,6 @@ def format_name(f_name, l_name):
     return f"Your name is {formated_f_name} and your last name is {formated_l_name}"
 
 print(format_name(input("What is your first name? "), input("What is your last name? ")))
+
+# As we call the function below we will see the text of the comment populated in the documentation.
+# format_name()
