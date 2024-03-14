@@ -17,5 +17,18 @@ print(computer_cards)
 
 
 def calculate_score(user_cards):
-    return sum(user_cards)
+    blackjack = user_cards[0] + user_cards[1]
+    if blackjack == 21:
+        return 0
+    else:
+        return sum(user_cards)
 
+def calculate_score(computer_cards):
+    blackjack = computer_cards[0] + computer_cards[1]
+    if blackjack == 21:
+        return 0
+    else:
+        return sum(computer_cards)
+
+test = calculate_score(computer_cards)
+print(test)
