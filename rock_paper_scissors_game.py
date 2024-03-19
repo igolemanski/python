@@ -28,19 +28,34 @@ scissors = '''
 ---.__(___)
 '''
 
-print("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: ")
-player = int(input("Select your number: "))
-pc = [0, 1, 2]
-random_num = random.randint(0, len(pc) - 1)
+game_images = [rock, paper, scissors]
 
-if player == 0 and random_num == 2:
-    print(f"{rock} Rock WIN")
-    print(f"{scissors} Scissors lose")
-elif player == 2 and random_num == 1:
-    print(f"{scissors} Scissors WIN")
-    print(f"{paper} Paper lose")
-elif player == 1 and random_num == 0:
-    print(f"{paper} Paper WIN")
-    print(f"{rock} Rock Lose")
-else:
-    print("REMY")
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+print(game_images[user_choice])
+
+computer_choice = random.randint(0, 2)
+print("Computer chose:")
+print(game_images[computer_choice])
+
+if user_choice >= 3 or user_choice < 0: 
+  print("You typed an invalid number, you lose!") 
+elif user_choice == 0 and computer_choice == 2:
+  print("You win!")
+elif computer_choice == 0 and user_choice == 2:
+  print("You lose")
+elif computer_choice > user_choice:
+  print("You lose")
+elif user_choice > computer_choice:
+  print("You win!")
+elif computer_choice == user_choice:
+  print("It's a draw")
+
+
+####### Debugging challenge: #########
+#Try running this code and type 5.
+#It will give you an IndexError and point to line 32 as the issue.
+#But on line 38 we are trying to prevent a crash by detecting
+#any numbers great than or equal to 3 or less than 0.
+#So what's going on?
+#Can you debug the code and fix it?
+#Solution: https://repl.it/@appbrewery/rock-paper-scissors-debugged-end
