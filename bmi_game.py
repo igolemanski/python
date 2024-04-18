@@ -1,6 +1,6 @@
 # BMI check Game
-height = float(input())  # in meters e.g., 1.55
-weight = int(input())  # in kilograms e.g., 72
+height = float(input("Enter your height"))  # in meters e.g., 1.55
+weight = int(input("Enter your weight"))  # in kilograms e.g., 72
 bmi = weight / (height * height)
 if bmi < 18.5:
   print(f"Your BMI is {bmi}, you are underweight.")
