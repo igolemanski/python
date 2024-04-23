@@ -7,6 +7,6 @@ def format_name(f_name, l_name):
         return "You haven't entered a name!"
     formated_f_name = f_name.title()
     formated_l_name = l_name.title()
-    return f"Вашето име е is {formated_f_name} and your last name is {formated_l_name}"
+    return f"Your name is {formated_f_name} and your last name is {formated_l_name}"
 
 print(format_name(input("What is your first name? "), input("What is your last name? ")))

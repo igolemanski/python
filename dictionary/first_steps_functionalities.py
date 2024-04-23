@@ -7,11 +7,11 @@ programming_dictionary = {
     "Random_number": random.random() * 3,
 }
 # Retrieving items from dictionary
-print(programming_dictionary["Random_number"])
+# print(programming_dictionary["Random_number"])
 
 # Adding new items to dictionary
-programming_dictionary["Loop"] = "The action of doing something over and over again"
-print(programming_dictionary)
+# programming_dictionary["Loop"] = "The action of doing something over and over again"
+# print(programming_dictionary)
 
 # Create an empty dictionary
 # empty_dictionary = {}
