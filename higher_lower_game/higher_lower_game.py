@@ -11,7 +11,7 @@ def account_info(account):
 
 def check_answer(guess, a_followers, b_followers):
     """Take the users guess and follower counts and return if they got it right."""
-    if a_account_followers > b_account_followers:
+    if a_followers > b_followers:
         return guess == "a"
     else:
         return guess == "b"
@@ -57,5 +57,3 @@ while game_should_continue:
     else:
         game_should_continue = False
         print(f"Sorry you are wrong. Final score: {score}.")
-
-
